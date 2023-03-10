@@ -1,0 +1,107 @@
+ /*General style===================================*/
+ body {
+   font-family: Lucida Sans;
+   background: linear-gradient(rgb(129, 94, 29), rgb(70, 43, 3));
+   height: 100vh;
+ }
+
+ /*Header styles==============================================*/
+ header {
+   position: fixed;
+   width: 90%;
+   z-index: 100;
+   margin-top: 10px;
+   width: 100%;
+ }
+
+ .row {
+   align-items: center;
+ }
+
+ a.logo {
+   text-decoration: none;
+   color: #fff;
+   padding-left: 20px;
+ }
+
+ span {
+   color: #e9a20a;
+   ;
+ }
+
+ nav .nav-list {
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 0;
+   gap: 23px;
+ }
+
+ nav .nav-list .list a {
+   display: block;
+   padding: 3px 6px;
+   margin: 9px 0;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all 0.35 ease-in-out;
+   color: #fff;
+   border-radius: 25px;
+ }
+
+ nav .nav-list .list a:hover {
+   color: #e9a20a;
+   background-color: #fff;
+ }
+
+ .main {
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+ }
+
+ .main::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   background: linear-gradient(to top, rgb(209, 163, 95), transparent);
+ }
+
+ .main img {
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   object-fit: cover;
+ }
+
+ #moon {
+   mix-blend-mode: screen;
+   transform: translateY(70px);
+ }
+
+ .ousama {
+   color: #fff;
+   font-size: 20px;
+   text-transform: uppercase;
+   transform: translateY(-120px);
+ }
+
+ .content {
+   color: #fff;
+   padding: 30px;
+   background: linear-gradient(to top, rgb(209, 163, 95), transparent);
+ }
+
+ .content h2 {
+   font-size: 30px;
+   margin: 20px;
+ }
+
+ .content p {
+   margin: 20px;
+ }
